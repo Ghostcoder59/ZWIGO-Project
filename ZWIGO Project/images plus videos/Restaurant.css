@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    /* transform: 2s;
+    width:100px;
+    padding: 6%;
+    position:relative;
+    margin: 40px left; */
+    font-family: 'Ubuntu', sans-serif;
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.container:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
